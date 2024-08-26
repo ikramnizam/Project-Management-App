@@ -31,6 +31,7 @@ export default function Index({ auth, success, tasks, queryParams = null }) {
               <TasksTable
                 tasks={tasks}
                 queryParams={queryParams}
+                success={success}
               />
             </div>
           </div>
